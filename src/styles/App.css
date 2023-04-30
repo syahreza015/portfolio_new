@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "roboto";
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+.animate__slideInLeft {
+  --animate-duration: 550ms;
+}
+.animate__slideInRight {
+  --animate-duration: 550ms;
+}
+.animate__slideInDown {
+  --animate-duration: 550ms;
+}
+.animate__fadeIn {
+  --animate-duration: 550ms;
+  animation-delay: 500ms;
+}
+.animate__zoomIn {
+  --animate-duration: 550ms;
+  animation-delay: 700ms;
+}
